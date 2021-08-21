@@ -16,7 +16,7 @@ edgew<-E(net.grph)$weight
 
 #Creating a vector to remove the isolated nodes (nodes with no interactions)
 print("Creating a vector to remove the isolated nodes (nodes with no interactions)...")
-bad.vs<-V(net.grph)[degree(net.grph) == 0] 
+bad.vs<-V(net.grph)[degree(net.grph) == 0]
 
 #Removing the isolated nodes from the graph object using the function delete.vertices()
 print("Removing the isolated nodes from the graph object...")
@@ -54,9 +54,11 @@ plot(net.grph,
     edge.color=ifelse(edgew < 0,"red","blue"),
     vertex.label.color="black",
     vertex.label.family="ArialMT",
-    vertex.label.font=0.1) 
+    vertex.label.font=0.1)
 
 dev.off()
 
 print("Done.")
 ###From:https://kelseyandersen.github.io/NetworksPlantPathology/Microbiome_network_ICPP2018_v2.html#network_analysis###
+
+Hola, este es mi nuevo cambio.
