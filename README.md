@@ -30,6 +30,13 @@ Se pueden escribir citas:
 
 ### Encabezados de diferente nivel
 
+Tablas:
+
+| Columna     | Columna centrada | Alineación a la derecha |
+| :---        |       :----:     |                    ---: |
+| Header      | Title            | Here's this             |
+| Paragraph   | Text             | And more                |
+
 Comandos como `sudo apt install cmatrix`, o también varias líneas de código:
 
 ```
